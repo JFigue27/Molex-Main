@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/JFigue27/Molex-Main#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
     "next": "^9.3.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"

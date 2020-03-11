@@ -1,16 +1,6 @@
 import Header from './Header';
+import { AppBar, Toolbar, Grid, Typography } from '@material-ui/core';
 
-const layoutStyle = {
-  margin: 20,
-  padding: 20,
-  border: '1px solid #DDD'
-};
-
-const Layout = props => (
-  <div style={layoutStyle}>
-    <Header />
-    {/* {props.children} */}
-  </div>
-);
+const Layout = props => <Header>{props.children}</Header>;
 
 export default Layout;
