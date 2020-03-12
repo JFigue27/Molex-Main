@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { AppBar, Toolbar, ButtonBase, Grid, Typography, Zoom, Container } from '@material-ui/core';
-import Badges from '../components/Zoom';
+import { AppBar, Toolbar, ButtonBase, Grid } from '@material-ui/core';
 
 const Header = () => (
   <>
@@ -14,18 +13,7 @@ const Header = () => (
         <Grid item xs />
       </Toolbar>
     </AppBar>
-    <Container maxWidth='md'>
-      <Grid container justify='center'>
-        <Badges />
-      </Grid>
-    </Container>
-    <AppBar position='fixed' style={{ top: 'auto', bottom: 0 }}>
-      <Toolbar>
-        <Grid container direction='column' alignItems='center'>
-          <Typography> © 2020 | Molex Apps Juárez </Typography>
-        </Grid>
-      </Toolbar>
-    </AppBar>
+
     <style global jsx>
       {`
         body {

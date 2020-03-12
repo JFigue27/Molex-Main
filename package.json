@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p %PORT%"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
     "next": "^9.3.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1"
   }
 }
